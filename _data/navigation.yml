@@ -1,6 +1,12 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
+- title:WEB作品集
+  url:/portfolio/
+  excerpt:这是我的网页设计与制作作品集
   image:
+  
+- title: 信息可视化作品集
+  url: /infovis/
+  excerpt: "这是我的信息可视化作品集"
+  image: 
+ 
