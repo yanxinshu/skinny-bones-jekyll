@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "颜信束个人学习网站"
+description: "在更遼闊的世界感覺更自在地體驗及學習"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
+locale: zh_TW # 本地化翻譯
 url:
 feed:
   path: atom.xml
@@ -26,13 +26,12 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
-  google:
+  name:yanxinshu
+  email:www.xinshu.cn@qq.com
+
     ad-client:
     ad-slot:
-  bio:
+  bio:颜信束，网络与新媒体一班
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
