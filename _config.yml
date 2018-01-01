@@ -26,12 +26,12 @@ gems:
 
 # Site owner
 owner:
-  name:yanxinshu
-  email:www.xinshu.cn@qq.com
+  name: yanxinshu
+  email: www.xinshu.cn@qq.com
 
     ad-client:
     ad-slot:
-  bio:颜信束，网络与新媒体一班
+  bio: "颜信束，网络与新媒体一班"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
