@@ -1,4 +1,5 @@
 # Site wide configuration
+# Site wide configuration
 
 title: "颜信束个人学习网站"
 description: "在更遼闊的世界感覺更自在地體驗及學習"
@@ -28,8 +29,10 @@ gems:
 owner:
   name: yanxinshu
   email: www.xinshu.cn@qq.com
-  ad-client:
-  ad-slot:
+  twitter: 
+  google:
+    ad-client:
+    ad-slot:
   bio: "颜信束，网络与新媒体一班"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
