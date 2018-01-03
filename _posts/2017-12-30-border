@@ -1,0 +1,40 @@
+---
+layout: article
+title:  "border"
+date:   2017-12-30 
+categories: notes
+image:
+  teaser: 
+  feature: 
+---
+
+盒模型之border设置
+
+border的3要素：宽，形状（实现虚线），颜色
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>study13.html</title>
+   
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+ 
+    <style type="text/css">
+       div {
+           width: 300px;
+           height:300px;
+           background: blue;
+           border: 50px outset green;
+       }
+    </style>
+  </head>
+ 
+  <body>
+    <div>
+   
+    </div>
+  </body>
+</html>
