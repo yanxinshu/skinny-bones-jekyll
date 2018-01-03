@@ -63,7 +63,7 @@
 				top: 0;
 				left: 0;
 				height: 2px;
-				@include transition(width 0.3s);
+				@include transition(width 0.7s);
 			}
 			&:before {
 				width: 100%;
@@ -76,6 +76,9 @@
 			&:active:after,
 			&:hover:after {
 				width: 100%;
+			}
+			&:hover {
+				color: $oxfordblue;
 			}
 		}
 	}
