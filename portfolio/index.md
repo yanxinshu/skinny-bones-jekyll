@@ -6,8 +6,8 @@ modified:
 excerpt: "这是我网页设计与制作作品集"
 tags: []
 image: 
-  feature:  
-  teaser: 
+  feature:  light.png
+  teaser: light.png
 ---
 
 
