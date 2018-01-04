@@ -1,13 +1,15 @@
 ---
 layout: archive
-title:  "WEB作品集"
+title: "WEB作品集"
+date: 
 modified:
- excerpt: "这是我网页设计与制作作品集"
- tags: []
- image: 
-   feature: Portfolio.svg
-   teaser:
+excerpt: "这是我网页设计与制作作品集"
+tags: []
+image: 
+  feature:  
+  teaser: 
 ---
+
 
 <div class="tiles">
 {% for post in site.categories.portfolio %}
