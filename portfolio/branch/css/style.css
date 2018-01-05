@@ -1,11 +1,12 @@
 * {
-	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 
 body {
 	padding: 1rem .5rem;
 	font-size: 1.3rem;
-	line-height: 1.5;
+	line-height: 1.2;
 	max-width: 60rem;
 	margin: 0 auto;
 	color: #333;
@@ -15,11 +16,12 @@ img {
 	max-width: 100%;
 }
 
-.Header {
+.header {
+	height: 60px;
+	background-color: #000;
 	text-align: center;
-	border-bottom: 8px double #f9f9f9;
-	margin-bottom: 2rem;
-	padding-bottom: 1rem;
+	line-height: 60px;
+	color: white;
 }
 
 .Strap {
@@ -106,3 +108,4 @@ img {
 		margin: 0;
 	}
 }
+
