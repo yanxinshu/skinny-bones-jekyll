@@ -3,15 +3,6 @@
 	margin: 0px;
 }
 
-body {
-	padding: 1rem .5rem;
-	font-size: 1.3rem;
-	line-height: 1.2;
-	max-width: 60rem;
-	margin: 0 auto;
-	color: #333;
-}
-
 img {
 	max-width: 100%;
 }
