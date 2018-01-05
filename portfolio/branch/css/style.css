@@ -2,11 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 }
-
-img {
-	max-width: 100%;
-}
-
 .header {
 	height: 60px;
 	background-color: #000;
@@ -14,6 +9,25 @@ img {
 	line-height: 60px;
 	color: white;
 }
+
+.main {
+    height: 650px;
+    background-color:$cream;
+    position: relative;
+    }
+.main img{
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    }
+.main p{
+    color: #ffffff;
+    position: absolute;
+    text-align:center;
+    width:100%;
+    }
+    
 
 .Strap {
 	font-size: 1rem;
