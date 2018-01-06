@@ -1,116 +1,117 @@
+/*######## Defaults ########*/
+nav, 
+header, 
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+label {
+    font-size: 35px;
+    font-family: serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.1;
+}
+
+article p {
+    font-size: 30px;
+    padding: 20px;
+    line-height: 1.2;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;   
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
 * {
-	padding: 0px;
-	margin: 0px;
-}
-.header {
-	height: 60px;
-	background-color: #000;
-	text-align: center;
-	line-height: 60px;
-	color: white;
-}
-
-.main {
-    height: 650px;
-    background-color: $cream;
-    position: relative;
-    }
-.main img{
-    margin-top: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -100px;
-    }
-.main p{
-    color: #ffffff;
-    position: absolute;
-    text-align:center;
-    width:100%;
-    }
-    
-
-.Strap {
-	font-size: 1rem;
+    box-sizing: border-box;
 }
 
 
-.MoneyShot {
-	position: relative;
+/*######## Nav Bar ########*/
+
+nav {
+    width: 100%;
+    margin: 0;
 }
 
-.MoneyShotImg {
-	border: 6px solid #e8cfa9;
-	border-radius: 4px;
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.LogoWrapper {
-	display: block;
+ul.topnav li{
+    list-style: none;
+    float: left; 
 }
 
-.ImageCaption {
-	font-size: .75rem;
-	position: absolute;
-	bottom: .5rem;
-	right: 1rem;
+ul.topnav li.topnav-right {
+    float: right;
 }
 
-.IntroText {
-	font-size: 1.8rem;
-	font-style: italic;
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
 }
 
-.MethodWrapper li {
-	padding: .4rem 0;
+
+ul.topnav li a:hover{
+    background-color: sandybrown;
+    color: antiquewhite;
 }
 
-.MethodWrapper li:after {
-	content: "✼";
-	display: block;
-	text-align: center;
-	margin: 1rem 0 .5rem 0;
-	color: #eee;
+ul.topnav li.dropdownIcon{
+    display: none;
 }
 
-@media screen and (min-width: 50rem) {
-	body {
-		border-left: 4px solid #f9f9f9;
-		border-right: 4px solid #f9f9f9;
-		padding: 1rem 2rem;
-	}
+/*######## Custom Styles ########*/
 
-	.IntroWrapper {
-		display: table;
-		table-layout: fixed;
-		width: 100%;
-	}
 
-	.MoneyShot,
-	.IntroText {
-		display: table-cell;
-		width: 50%;
-		vertical-align: middle;
-		text-align: center;
-	}
-
-	.IntroText {
-		padding: .5rem;
-		font-size: 2.5rem;
-		text-align: left;
-		position: relative;
-	}
-
-	.Ingredients {
-		font-size: .9rem;
-		float: right;
-		padding: 1rem;
-		margin: 0 0 .5rem 1rem;
-		border-radius: 3px;
-		background-color: #ffffdf;
-		border: 2px solid #e8cfa9;
-	}
-
-	.Ingredients h3 {
-		margin: 0;
-	}
+#section-1-gradient{
+    background:  linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
 }
-
