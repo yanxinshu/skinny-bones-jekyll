@@ -18,7 +18,6 @@ image:
 </div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
 
 
-<br/>
 <br>[Tableau学习笔记](https://yanxinshu.github.io/posts/infovis-notes)
 <div class="tiles">
 {% for post in site.categories.infovis %}
