@@ -9,8 +9,12 @@
    excerpt: "这是我的信息可视化作品"
    image: ibi.gif
    
- - title: 学习笔记
-   url: /rwd/
+ - title: Web学习笔记
+   url: /posts/rwd/
    excerpt: "taking down"
    image: notes.gif
    
+ - title: Tableau学习笔记
+   url: /posts/infovis/
+   excerpt: "包含我的可视化学习笔记"
+   image: notes.gif
