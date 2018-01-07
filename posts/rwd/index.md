@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "学习笔记"
+title: "Web学习笔记"
 date: 
 modified:
 excerpt: ""
 tags: []
 ---
 
-以下是我的学习笔记
+以下是我的Web学习笔记
 
 <div class="tiles">
 {% for post in site.categories.rwd %}
